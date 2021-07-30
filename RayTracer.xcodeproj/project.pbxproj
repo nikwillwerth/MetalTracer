@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		246EE38426AF3B3300351F4E /* BytePacker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246EE38326AF3B3300351F4E /* BytePacker.swift */; };
+		246EE38726AF758300351F4E /* loki_header.metal in Sources */ = {isa = PBXBuildFile; fileRef = 246EE38526AF758300351F4E /* loki_header.metal */; };
+		246EE38826AF758300351F4E /* loki.metal in Sources */ = {isa = PBXBuildFile; fileRef = 246EE38626AF758300351F4E /* loki.metal */; };
+		24EDA58226ABB7BA004FDABF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EDA58126ABB7BA004FDABF /* AppDelegate.swift */; };
+		24EDA58426ABB7BA004FDABF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EDA58326ABB7BA004FDABF /* ViewController.swift */; };
+		24EDA58626ABB7BC004FDABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24EDA58526ABB7BC004FDABF /* Assets.xcassets */; };
+		24EDA58926ABB7BC004FDABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24EDA58726ABB7BC004FDABF /* Main.storyboard */; };
+		24EDA59226ABB7CE004FDABF /* RayTracer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EDA59126ABB7CE004FDABF /* RayTracer.swift */; };
+		24EDA59626ABBC05004FDABF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EDA59526ABBC05004FDABF /* Extensions.swift */; };
+		24EDA59826ABBF91004FDABF /* raytrace.metal in Sources */ = {isa = PBXBuildFile; fileRef = 24EDA59726ABBF91004FDABF /* raytrace.metal */; };
+		24EDA5A826ADE540004FDABF /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EDA5A726ADE540004FDABF /* Structs.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		246EE38326AF3B3300351F4E /* BytePacker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BytePacker.swift; sourceTree = "<group>"; };
+		246EE38526AF758300351F4E /* loki_header.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = loki_header.metal; sourceTree = "<group>"; };
+		246EE38626AF758300351F4E /* loki.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = loki.metal; sourceTree = "<group>"; };
+		24EDA57E26ABB7BA004FDABF /* RayTracer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RayTracer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24EDA58126ABB7BA004FDABF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24EDA58326ABB7BA004FDABF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24EDA58526ABB7BC004FDABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24EDA58826ABB7BC004FDABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24EDA58A26ABB7BC004FDABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24EDA58B26ABB7BC004FDABF /* RayTracer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RayTracer.entitlements; sourceTree = "<group>"; };
+		24EDA59126ABB7CE004FDABF /* RayTracer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RayTracer.swift; sourceTree = "<group>"; };
+		24EDA59526ABBC05004FDABF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		24EDA59726ABBF91004FDABF /* raytrace.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = raytrace.metal; sourceTree = "<group>"; };
+		24EDA5A726ADE540004FDABF /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24EDA57B26ABB7BA004FDABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24EDA57526ABB7BA004FDABF = {
+			isa = PBXGroup;
+			children = (
+				24EDA58026ABB7BA004FDABF /* RayTracer */,
+				24EDA57F26ABB7BA004FDABF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24EDA57F26ABB7BA004FDABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24EDA57E26ABB7BA004FDABF /* RayTracer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24EDA58026ABB7BA004FDABF /* RayTracer */ = {
+			isa = PBXGroup;
+			children = (
+				246EE38526AF758300351F4E /* loki_header.metal */,
+				246EE38626AF758300351F4E /* loki.metal */,
+				24EDA58126ABB7BA004FDABF /* AppDelegate.swift */,
+				24EDA58326ABB7BA004FDABF /* ViewController.swift */,
+				24EDA59526ABBC05004FDABF /* Extensions.swift */,
+				24EDA59126ABB7CE004FDABF /* RayTracer.swift */,
+				24EDA5A726ADE540004FDABF /* Structs.swift */,
+				24EDA58526ABB7BC004FDABF /* Assets.xcassets */,
+				24EDA58726ABB7BC004FDABF /* Main.storyboard */,
+				24EDA58A26ABB7BC004FDABF /* Info.plist */,
+				24EDA58B26ABB7BC004FDABF /* RayTracer.entitlements */,
+				24EDA59726ABBF91004FDABF /* raytrace.metal */,
+				246EE38326AF3B3300351F4E /* BytePacker.swift */,
+			);
+			path = RayTracer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24EDA57D26ABB7BA004FDABF /* RayTracer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24EDA58E26ABB7BC004FDABF /* Build configuration list for PBXNativeTarget "RayTracer" */;
+			buildPhases = (
+				24EDA57A26ABB7BA004FDABF /* Sources */,
+				24EDA57B26ABB7BA004FDABF /* Frameworks */,
+				24EDA57C26ABB7BA004FDABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RayTracer;
+			productName = RayTracer;
+			productReference = 24EDA57E26ABB7BA004FDABF /* RayTracer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24EDA57626ABB7BA004FDABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					24EDA57D26ABB7BA004FDABF = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = 24EDA57926ABB7BA004FDABF /* Build configuration list for PBXProject "RayTracer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24EDA57526ABB7BA004FDABF;
+			productRefGroup = 24EDA57F26ABB7BA004FDABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24EDA57D26ABB7BA004FDABF /* RayTracer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24EDA57C26ABB7BA004FDABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EDA58626ABB7BC004FDABF /* Assets.xcassets in Resources */,
+				24EDA58926ABB7BC004FDABF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24EDA57A26ABB7BA004FDABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24EDA59626ABBC05004FDABF /* Extensions.swift in Sources */,
+				246EE38726AF758300351F4E /* loki_header.metal in Sources */,
+				24EDA59226ABB7CE004FDABF /* RayTracer.swift in Sources */,
+				24EDA59826ABBF91004FDABF /* raytrace.metal in Sources */,
+				246EE38826AF758300351F4E /* loki.metal in Sources */,
+				24EDA5A826ADE540004FDABF /* Structs.swift in Sources */,
+				246EE38426AF3B3300351F4E /* BytePacker.swift in Sources */,
+				24EDA58426ABB7BA004FDABF /* ViewController.swift in Sources */,
+				24EDA58226ABB7BA004FDABF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24EDA58726ABB7BC004FDABF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24EDA58826ABB7BC004FDABF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24EDA58C26ABB7BC004FDABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24EDA58D26ABB7BC004FDABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		24EDA58F26ABB7BC004FDABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RayTracer/RayTracer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6SVXQPSH8S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RayTracer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nik.RayTracer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		24EDA59026ABB7BC004FDABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RayTracer/RayTracer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6SVXQPSH8S;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = RayTracer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nik.RayTracer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24EDA57926ABB7BA004FDABF /* Build configuration list for PBXProject "RayTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EDA58C26ABB7BC004FDABF /* Debug */,
+				24EDA58D26ABB7BC004FDABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24EDA58E26ABB7BC004FDABF /* Build configuration list for PBXNativeTarget "RayTracer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24EDA58F26ABB7BC004FDABF /* Debug */,
+				24EDA59026ABB7BC004FDABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24EDA57626ABB7BA004FDABF /* Project object */;
+}
